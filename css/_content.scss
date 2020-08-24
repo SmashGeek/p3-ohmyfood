@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+}
+
+.index {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.menu1-prev {
+    @include bloc-menu;
+    margin: 5%;
+    background-color: $bmenu1;
+
+    h2 {
+        font-family: 'devonshireregular';
+        font-size: 50px;
+        color: #3c1218;
+        line-height: 1px;
+    }
+
+    p {
+        font-family: 'vtcsundaykomixcapsregular';
+        font-size: 70px;
+        color: #3c1218;
+    }
+    a {
+        outline: none;
+        text-decoration: none;
+        transition: 500ms ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+    }
+}
+.menu2-prev {
+    @include bloc-menu;
+    margin: 5% 5% 5% 0;
+    background-color: $bmenu2;
+
+    h2 {
+        font-family: 'croissant_oneregular';
+        background: linear-gradient(to bottom right, #D8862F, #915BFD);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 35px;
+    }
+
+    p {
+        font-family: 'litolandregular';
+        font-size: 45px;
+        color: #c77412;
+    }
+
+    a {
+        outline: none;
+        text-decoration: none;
+        transition: 500ms ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+    }
+}
+
+/* le délice des papilles*/
+.menu3-prev {
+    @include bloc-menu;
+    margin: 0 5% 5% 5%;
+    background-color: $bmenu3;
+
+    h2 {
+        font-family: 'dancing_scriptregular';
+        background: linear-gradient(to bottom right, #0837E0, #2494FA);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 50px;
+    }
+
+    p {
+        font-family: 'mcgannahanregular';
+        color: #0887fb;
+        font-size: 55px;
+    }
+    a {
+        outline: none;
+        text-decoration: none;
+        transition: 500ms ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+    }
+}
+
+/* la palette du goût*/
+.menu4-prev {
+    @include bloc-menu;
+    margin: 0 5% 5% 0%;
+    background-color: $bmenu4;
+
+    h2 {
+        font-family: 'kaushan_scriptregular';
+        font-size: 50px;
+        background: linear-gradient(to bottom right, #43973D, #BFFF7E);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    p {
+        font-family: 'mcgannahanregular';
+        font-size: 50px;
+        color: #75c05a
+    }
+    a {
+        outline: none;
+        text-decoration: none;
+        transition: 500ms ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+    }
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34%;
+    border-radius: 25px;
+    background-color: $green;
+    margin-bottom: 20%;
+    p {
+        color: $yellow;
+        font-size: 2.08vw;
+        font-family: 'montserratmedium';
+    }
+
+}
+
+.one {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.0s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.0s;
+    font-size: 2.08vw;
+    color: $yellow;
+}
+
+.two {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.2s;
+      animation: dot 1.3s infinite;
+      animation-delay: 0.2s;
+      font-size: 2.08vw;
+      color: $yellow;
+}
+
+.three {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.3s;
+     animation: dot 1.3s infinite;
+     animation-delay: 0.3s;
+     font-size: 2.08vw;
+     color: $yellow;
+}

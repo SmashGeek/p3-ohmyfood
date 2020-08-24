@@ -1,0 +1,10 @@
+@keyframes wiggle { /*animation footer*/
+    0% { transform: translate(2px, 0); }
+    50% { transform: translate(-9px, 0); }
+    100% { transform: translate(2px, 0); }
+  }
+  @keyframes dot {  /*animation prochainement*/
+      0% { opacity: 0; }
+     50% { opacity: 0; }
+    100% { opacity: 1; }
+}
