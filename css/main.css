@@ -861,4 +861,98 @@ h3 {
   text-align: center;
   padding-bottom: 15%;
 }
+
+@media all and (min-width: 600px) and (max-width: 1024px) {
+  header h1 {
+    font-size: 3.2rem;
+  }
+  .menu1-prev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    height: 60vh;
+    box-shadow: 10px 10px 20px 10px #d1cfd1;
+    margin: 5% auto;
+  }
+  .menu2-prev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    height: 60vh;
+    box-shadow: 10px 10px 20px 10px #d1cfd1;
+    margin: 5% auto;
+  }
+  .menu3-prev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    height: 60vh;
+    box-shadow: 10px 10px 20px 10px #d1cfd1;
+    margin: 5% auto;
+  }
+  .menu4-prev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    height: 60vh;
+    box-shadow: 10px 10px 20px 10px #d1cfd1;
+    margin: 5% auto;
+  }
+  footer {
+    height: 10%;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 25px;
+    background-color: #579c87;
+    margin-bottom: 20%;
+  }
+  .btn p {
+    color: #fdcb46;
+    font-size: 4.08vw;
+    font-family: 'montserratmedium';
+  }
+  .one {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.0s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.0s;
+    font-size: 4.08vw;
+    color: #fdcb46;
+  }
+  .two {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.2s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.2s;
+    font-size: 4.08vw;
+    color: #fdcb46;
+  }
+  .three {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.3s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.3s;
+    font-size: 4.08vw;
+    color: #fdcb46;
+  }
+}
 /*# sourceMappingURL=main.css.map */
