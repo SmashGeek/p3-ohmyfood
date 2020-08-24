@@ -1,0 +1,109 @@
+@media #{$tablet} { //affichage version tablette
+header h1 {
+    font-size: 3.2rem;
+}
+
+.menu1-prev{
+    @include bloc-menu-tab;
+    margin: 5% auto;
+}
+.menu2-prev{
+    @include bloc-menu-tab;
+    margin: 5% auto;
+}
+.menu3-prev{
+    @include bloc-menu-tab;
+    margin: 5% auto;
+}
+.menu4-prev{
+    @include bloc-menu-tab;
+    margin: 5% auto;
+}
+
+footer {
+    height: 10%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 25px;
+    background-color: $green;
+    margin-bottom: 20%;
+    p {
+        color: $yellow;
+        font-size: 4.08vw;
+        font-family: 'montserratmedium';
+    }
+}
+
+.one {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.0s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.0s;
+    font-size: 4.08vw;
+    color: $yellow;
+}
+
+.two {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.2s;
+      animation: dot 1.3s infinite;
+      animation-delay: 0.2s;
+      font-size: 4.08vw;
+      color: $yellow;
+}
+
+.three {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.3s;
+     animation: dot 1.3s infinite;
+     animation-delay: 0.3s;
+     font-size: 4.08vw;
+     color: $yellow;
+}
+}
+@media #{$smartphone} { //affichage smartphone
+ header h1 {
+     font-size: 3.2rem;
+ }
+ .menu1-prev{
+    @include bloc-menu-tab;
+    margin: 5% auto;
+}
+.menu2-prev{
+    @include bloc-menu-tab;
+    margin: 5% auto;
+}
+.menu3-prev{
+    @include bloc-menu-tab;
+    margin: 5% auto;
+}
+.menu4-prev{
+    @include bloc-menu-tab;
+    margin: 5% auto;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 25px;
+    background-color: $green;
+    margin-bottom: 25%;
+    p {
+        color: $yellow;
+        font-size: 4.08vw;
+        font-family: 'montserratmedium';
+    }
+}
+footer {
+    height: 8%;
+}
+}

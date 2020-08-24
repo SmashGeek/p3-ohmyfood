@@ -1,0 +1,88 @@
+h3 {
+    font-family: 'tex_gyre_heros_cnbold';
+    text-align: center;
+    font-size: 2vw;
+}
+
+.menu1 {
+    width: 55%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 190px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: $bmenu1;
+    box-shadow: 10px 10px 20px 10px #d1cfd1;
+    h2 {
+        font-size: 20px;
+        background: linear-gradient(to top, $fmenu1 0%, $fmenu1 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+    }
+    h2:hover {
+        background-size: 100% 100%;
+    }
+}
+
+.logom1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'devonshireregular';
+    font-size: 3vw;
+    margin-top: 5%;
+}
+.menu_1 {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: baseline;
+    justify-content: space-between;
+    font-family: 'Segoe Print';
+    h2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+.entree {
+  @include contenu-menu;
+  line-height: 65px;
+  margin-bottom: 8%;
+}
+.plat {
+    @include contenu-menu;
+    line-height: 65px;
+    margin-bottom: 8%;
+}
+.dessert {
+    @include contenu-menu;
+    line-height: 65px;
+    margin-bottom: 8%;
+}
+
+.entreem1 {
+    width: 100%;
+}
+.platm1 {
+    width: 100%;
+}
+.dessertm1 {
+    width: 100%;
+}
+.logo_bas {
+    width: 100%;
+    font-family: 'devonshireregular';
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    img {
+        width: 5%;
+        margin-right: 1%;
+        height: auto;
+    }
+}
+
