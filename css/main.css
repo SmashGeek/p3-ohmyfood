@@ -227,7 +227,7 @@ body {
 .menu3-prev h2 {
   font-family: 'dancing_scriptregular';
   background: linear-gradient(to bottom right, #0837E0, #2494FA);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 50px;
 }
@@ -267,7 +267,7 @@ body {
   font-family: 'kaushan_scriptregular';
   font-size: 50px;
   background: linear-gradient(to bottom right, #43973D, #BFFF7E);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -692,7 +692,7 @@ h3 {
   font-family: 'croissant_oneregular';
   font-size: 2vw;
   background: linear-gradient(to bottom right, #D8862F, #915BFD);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -831,7 +831,7 @@ h3 {
   font-family: 'dancing_scriptregular';
   font-size: 100px;
   background: linear-gradient(to bottom right, #0837E0, #2494FA);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -941,7 +941,7 @@ h3 {
   font-family: 'croissant_oneregular';
   font-size: 2vw;
   background: linear-gradient(to bottom right, #43973D, #BFFF7E);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 70px;
 }
