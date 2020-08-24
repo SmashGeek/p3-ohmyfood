@@ -188,7 +188,7 @@ body {
 .menu2-prev h2 {
   font-family: 'croissant_oneregular';
   background: linear-gradient(to bottom right, #D8862F, #915BFD);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 35px;
 }
