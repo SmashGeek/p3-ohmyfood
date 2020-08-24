@@ -1,0 +1,38 @@
+@media #{$smartphone} { //affichage smartphone
+    header h1 {
+        font-size: 3.2rem;
+    }
+    .menu1-prev{
+       @include bloc-menu-tab;
+       margin: 5% auto;
+   }
+   .menu2-prev{
+       @include bloc-menu-tab;
+       margin: 5% auto;
+   }
+   .menu3-prev{
+       @include bloc-menu-tab;
+       margin: 5% auto;
+   }
+   .menu4-prev{
+       @include bloc-menu-tab;
+       margin: 5% auto;
+   }
+   .btn {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 50%;
+       border-radius: 25px;
+       background-color: $green;
+       margin-bottom: 25%;
+       p {
+           color: $yellow;
+           font-size: 4.08vw;
+           font-family: 'montserratmedium';
+       }
+   }
+   footer {
+       height: 8%;
+   }
+   }
