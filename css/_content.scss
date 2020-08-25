@@ -76,9 +76,11 @@ body {
         font-family: 'dancing_scriptregular';
         background: linear-gradient(to bottom right, #0837E0, #2494FA);
         background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 50px;
-    }
+        padding-left: 5px;
+        }
 
     p {
         font-family: 'mcgannahanregular';
@@ -107,7 +109,9 @@ body {
         font-size: 50px;
         background: linear-gradient(to bottom right, #43973D, #BFFF7E);
         background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        padding-right: 5px;
     }
 
     p {

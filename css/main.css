@@ -229,8 +229,10 @@ body {
   font-family: 'dancing_scriptregular';
   background: linear-gradient(to bottom right, #0837E0, #2494FA);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 50px;
+  padding-left: 5px;
 }
 
 .menu3-prev p {
@@ -269,7 +271,9 @@ body {
   font-size: 50px;
   background: linear-gradient(to bottom right, #43973D, #BFFF7E);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-right: 5px;
 }
 
 .menu4-prev p {
@@ -1003,6 +1007,10 @@ h3 {
     height: 60vh;
     box-shadow: 10px 10px 20px 10px #d1cfd1;
     margin: 5% auto;
+  }
+  .menu4-prev h2 {
+    font-size: 60px;
+    padding: 0 1% 0 1%;
   }
   .btn {
     display: flex;

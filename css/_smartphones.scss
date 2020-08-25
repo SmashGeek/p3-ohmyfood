@@ -17,6 +17,10 @@
    .menu4-prev{
        @include bloc-menu-tab;
        margin: 5% auto;
+       h2 {
+           font-size: 60px;
+           padding: 0 1% 0 1%;
+       }
    }
    .btn {
        display: flex;
