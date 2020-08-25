@@ -268,7 +268,7 @@ body {
 
 .menu4-prev h2 {
   font-family: 'kaushan_scriptregular';
-  font-size: 50px;
+  font-size: 5rem;
   background: linear-gradient(to bottom right, #43973D, #BFFF7E);
   background-clip: text;
   -webkit-background-clip: text;
@@ -1009,7 +1009,6 @@ h3 {
     margin: 5% auto;
   }
   .menu4-prev h2 {
-    font-size: 60px;
     padding: 0 1% 0 1%;
   }
   .btn {
@@ -1027,7 +1026,7 @@ h3 {
     font-family: 'montserratmedium';
   }
   footer {
-    height: 8%;
+    height: 5%;
   }
 }
 /*# sourceMappingURL=main.css.map */
