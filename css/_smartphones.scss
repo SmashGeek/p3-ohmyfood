@@ -67,4 +67,33 @@
    footer {
        height: 5%;
    }
-   }
+
+   // affichage menu la note enchantée
+   h3 {
+    font-size: 4vw;
+}
+.menu1 {
+    width: 95%;
+}
+.logom1 {
+    font-size: 9vw;
+    line-height: 10px;
+}
+.entree {
+    @include contenu-menu-tab;
+}
+.plat {
+    @include contenu-menu-tab;
+}
+.dessert {
+    @include contenu-menu-tab;
+    line-height: 65px;
+}
+.logo_bas {
+    font-size: 7vw;
+    img {
+        width: 8%;
+        margin-right: 2%;
+    }
+}
+}

@@ -425,7 +425,7 @@ h3 {
   padding-right: 10%;
   align-items: baseline;
   justify-content: space-between;
-  font-family: 'Segoe Print';
+  font-family: 'mcgannahanregular';
 }
 
 .menu_1 h2 {
@@ -438,7 +438,7 @@ h3 {
   padding-right: 10%;
   display: flex;
   justify-content: space-between;
-  font-family: 'segoe print';
+  font-family: 'mcgannahanregular';
   font-size: 20px;
   line-height: 65px;
   margin-bottom: 8%;
@@ -459,7 +459,7 @@ h3 {
   padding-right: 10%;
   display: flex;
   justify-content: space-between;
-  font-family: 'segoe print';
+  font-family: 'mcgannahanregular';
   font-size: 20px;
   line-height: 65px;
   margin-bottom: 8%;
@@ -480,7 +480,7 @@ h3 {
   padding-right: 10%;
   display: flex;
   justify-content: space-between;
-  font-family: 'segoe print';
+  font-family: 'mcgannahanregular';
   font-size: 20px;
   line-height: 65px;
   margin-bottom: 8%;
@@ -991,7 +991,7 @@ h3 {
     padding-right: 10%;
     display: flex;
     justify-content: space-between;
-    font-family: 'segoe print';
+    font-family: 'mcgannahanregular';
     line-height: 25px;
   }
   .entree ul {
@@ -1008,7 +1008,7 @@ h3 {
     padding-right: 10%;
     display: flex;
     justify-content: space-between;
-    font-family: 'segoe print';
+    font-family: 'mcgannahanregular';
     line-height: 25px;
   }
   .plat ul {
@@ -1025,7 +1025,7 @@ h3 {
     padding-right: 10%;
     display: flex;
     justify-content: space-between;
-    font-family: 'segoe print';
+    font-family: 'mcgannahanregular';
     line-height: 25px;
     line-height: 65px;
   }
@@ -1141,6 +1141,75 @@ h3 {
   }
   footer {
     height: 5%;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  .menu1 {
+    width: 95%;
+  }
+  .logom1 {
+    font-size: 9vw;
+    line-height: 10px;
+  }
+  .entree {
+    padding-left: 7%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'mcgannahanregular';
+    line-height: 25px;
+  }
+  .entree ul {
+    list-style-type: none;
+    width: 100%;
+  }
+  .entree li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .plat {
+    padding-left: 7%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'mcgannahanregular';
+    line-height: 25px;
+  }
+  .plat ul {
+    list-style-type: none;
+    width: 100%;
+  }
+  .plat li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .dessert {
+    padding-left: 7%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'mcgannahanregular';
+    line-height: 25px;
+    line-height: 65px;
+  }
+  .dessert ul {
+    list-style-type: none;
+    width: 100%;
+  }
+  .dessert li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo_bas {
+    font-size: 7vw;
+  }
+  .logo_bas img {
+    width: 8%;
+    margin-right: 2%;
   }
 }
 /*# sourceMappingURL=main.css.map */
