@@ -400,7 +400,7 @@ h3 {
 }
 
 .menu1 h2 {
-  font-size: 30px;
+  font-size: 2vw;
   background: linear-gradient(to top, #3c1218 0%, #3c1218 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size .5s;
 }
@@ -985,6 +985,9 @@ h3 {
   .menu1 {
     width: 95%;
   }
+  .menu1 h2 {
+    font-size: 4vw;
+  }
   .logom1 {
     font-size: 9vw;
     line-height: 10px;
@@ -1159,6 +1162,9 @@ h3 {
   }
   .menu1 {
     width: 95%;
+  }
+  .menu1 h2 {
+    font-size: 4vw;
   }
   .logom1 {
     font-size: 9vw;
