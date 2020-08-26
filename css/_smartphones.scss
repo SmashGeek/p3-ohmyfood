@@ -35,6 +35,35 @@
            font-family: 'montserratmedium';
        }
    }
+   .one {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.0s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.0s;
+    font-size: 4.08vw;
+    color: $yellow;
+}
+
+.two {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.2s;
+      animation: dot 1.3s infinite;
+      animation-delay: 0.2s;
+      font-size: 4.08vw;
+      color: $yellow;
+}
+
+.three {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.3s;
+     animation: dot 1.3s infinite;
+     animation-delay: 0.3s;
+     font-size: 4.08vw;
+     color: $yellow;
+}
    footer {
        height: 5%;
    }

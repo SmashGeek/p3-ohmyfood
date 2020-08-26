@@ -268,12 +268,12 @@ body {
 
 .menu4-prev h2 {
   font-family: 'kaushan_scriptregular';
-  font-size: 5rem;
+  font-size: 4rem;
   background: linear-gradient(to bottom right, #43973D, #BFFF7E);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 .menu4-prev p {
@@ -429,8 +429,8 @@ h3 {
 }
 
 .menu_1 h2 {
-  margin-left: 5%;
-  margin-right: 5%;
+  text-align: center;
+  padding: 0 5% 0 5%;
 }
 
 .entree {
@@ -446,6 +446,12 @@ h3 {
 
 .entree ul {
   list-style-type: none;
+  width: 100%;
+}
+
+.entree li {
+  display: flex;
+  justify-content: space-between;
 }
 
 .plat {
@@ -461,6 +467,12 @@ h3 {
 
 .plat ul {
   list-style-type: none;
+  width: 100%;
+}
+
+.plat li {
+  display: flex;
+  justify-content: space-between;
 }
 
 .dessert {
@@ -476,6 +488,12 @@ h3 {
 
 .dessert ul {
   list-style-type: none;
+  width: 100%;
+}
+
+.dessert li {
+  display: flex;
+  justify-content: space-between;
 }
 
 .entreem1 {
@@ -958,6 +976,75 @@ h3 {
     font-size: 4.08vw;
     color: #fdcb46;
   }
+  h3 {
+    font-size: 4vw;
+  }
+  .menu1 {
+    width: 95%;
+  }
+  .logom1 {
+    font-size: 9vw;
+    line-height: 10px;
+  }
+  .entree {
+    padding-left: 7%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'segoe print';
+    line-height: 25px;
+  }
+  .entree ul {
+    list-style-type: none;
+    width: 100%;
+  }
+  .entree li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .plat {
+    padding-left: 7%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'segoe print';
+    line-height: 25px;
+  }
+  .plat ul {
+    list-style-type: none;
+    width: 100%;
+  }
+  .plat li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .dessert {
+    padding-left: 7%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'segoe print';
+    line-height: 25px;
+    line-height: 65px;
+  }
+  .dessert ul {
+    list-style-type: none;
+    width: 100%;
+  }
+  .dessert li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo_bas {
+    font-size: 7vw;
+  }
+  .logo_bas img {
+    width: 8%;
+    margin-right: 2%;
+  }
 }
 
 @media all and (min-width: 200px) and (max-width: 599px) {
@@ -1024,6 +1111,33 @@ h3 {
     color: #fdcb46;
     font-size: 4.08vw;
     font-family: 'montserratmedium';
+  }
+  .one {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.0s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.0s;
+    font-size: 4.08vw;
+    color: #fdcb46;
+  }
+  .two {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.2s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.2s;
+    font-size: 4.08vw;
+    color: #fdcb46;
+  }
+  .three {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.3s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.3s;
+    font-size: 4.08vw;
+    color: #fdcb46;
   }
   footer {
     height: 5%;

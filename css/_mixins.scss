@@ -36,9 +36,16 @@
 	justify-content: space-between;
 	font-family: 'segoe print';
 	font-size: 20px;
+	line-height: 65px;
+    margin-bottom: 8%;
     ul {
-        list-style-type: none;
-    }
+		list-style-type: none;
+		width: 100%;
+	}
+	li {
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 @mixin contenu-menu-2 {
@@ -87,5 +94,23 @@
     background:currentColor;
     transition:0.5s;
     bottom:5px;
+}
+
+@mixin contenu-menu-tab {
+	padding-left: 7%;
+    padding-right: 10%;
+    display: flex;
+	justify-content: space-between;
+	font-family: 'segoe print';
+	line-height: 25px;
+    ul {
+		list-style-type: none;
+		width: 100%;
+	}
+	li {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
 }
  
