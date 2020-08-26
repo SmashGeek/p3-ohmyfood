@@ -400,7 +400,7 @@ h3 {
 }
 
 .menu1 h2 {
-  font-size: 20px;
+  font-size: 30px;
   background: linear-gradient(to top, #3c1218 0%, #3c1218 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size .5s;
 }
@@ -430,7 +430,10 @@ h3 {
 
 .menu_1 h2 {
   text-align: center;
-  padding: 0 5% 0 5%;
+}
+
+.menu_1 img {
+  width: 25%;
 }
 
 .entree {
@@ -1005,6 +1008,7 @@ h3 {
   }
   .entree p {
     font-size: 4vw;
+    line-height: 40px;
   }
   .plat {
     padding-left: 7%;
@@ -1025,6 +1029,7 @@ h3 {
   }
   .plat p {
     font-size: 4vw;
+    line-height: 40px;
   }
   .dessert {
     padding-left: 7%;
@@ -1033,7 +1038,7 @@ h3 {
     justify-content: space-between;
     font-family: 'mcgannahanregular';
     line-height: 25px;
-    line-height: 80px;
+    line-height: 65px;
     font-size: 4vw;
   }
   .dessert ul {
@@ -1166,6 +1171,7 @@ h3 {
     justify-content: space-between;
     font-family: 'mcgannahanregular';
     line-height: 25px;
+    line-height: 40px;
   }
   .entree ul {
     list-style-type: none;
@@ -1183,6 +1189,7 @@ h3 {
     justify-content: space-between;
     font-family: 'mcgannahanregular';
     line-height: 25px;
+    line-height: 40px;
   }
   .plat ul {
     list-style-type: none;
@@ -1200,7 +1207,7 @@ h3 {
     justify-content: space-between;
     font-family: 'mcgannahanregular';
     line-height: 25px;
-    line-height: 65px;
+    line-height: 40px;
   }
   .dessert ul {
     list-style-type: none;

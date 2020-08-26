@@ -84,17 +84,19 @@
         @include contenu-menu-tab;
         p {
             font-size: 4vw;
+            line-height: 40px;
         }
     }
     .plat {
         @include contenu-menu-tab;
         p {
             font-size: 4vw;
+            line-height: 40px;
         }
     }
     .dessert {
         @include contenu-menu-tab;
-        line-height: 80px;
+        line-height: 65px;
         font-size: 4vw;
     }
     .logo_bas {
