@@ -1163,6 +1163,7 @@ h3 {
   .entree ul {
     list-style-type: none;
     width: 100%;
+    font-size: 1.5rem;
   }
   .entree li {
     display: flex;
@@ -1180,6 +1181,7 @@ h3 {
   .plat ul {
     list-style-type: none;
     width: 100%;
+    font-size: 1.5rem;
   }
   .plat li {
     display: flex;
@@ -1198,6 +1200,7 @@ h3 {
   .dessert ul {
     list-style-type: none;
     width: 100%;
+    font-size: 1.5rem;
   }
   .dessert li {
     display: flex;

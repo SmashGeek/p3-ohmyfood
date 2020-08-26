@@ -113,4 +113,21 @@
 		text-align: center;
 	}
 }
- 
+@mixin contenu-menu-smart {
+	padding-left: 7%;
+    padding-right: 10%;
+    display: flex;
+	justify-content: space-between;
+	font-family: 'mcgannahanregular';
+	line-height: 25px;
+    ul {
+		list-style-type: none;
+		width: 100%;
+		font-size: 1.5rem;
+	}
+	li {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+}

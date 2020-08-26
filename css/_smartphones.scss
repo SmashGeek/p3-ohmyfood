@@ -80,13 +80,13 @@
     line-height: 10px;
 }
 .entree {
-    @include contenu-menu-tab;
+    @include contenu-menu-smart;
 }
 .plat {
-    @include contenu-menu-tab;
+    @include contenu-menu-smart;
 }
 .dessert {
-    @include contenu-menu-tab;
+    @include contenu-menu-smart;
     line-height: 65px;
 }
 .logo_bas {
