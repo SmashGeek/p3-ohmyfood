@@ -64,9 +64,6 @@
      font-size: 4.08vw;
      color: $yellow;
 }
-   footer {
-       height: 5%;
-   }
 
    // affichage menu la note enchantée
    h3 {
@@ -100,5 +97,90 @@
         width: 8%;
         margin-right: 2%;
     }
+}
+
+// affichage menu le chic a la française
+
+.menu2 {
+    width: 95%;
+    h2 {
+        font-size: 3vw;
+        text-align: center;
+    }
+}
+.logom2 {
+    font-size: 6vw;
+    line-height: 10px;
+}
+.entree2 {
+    @include contenu-menu-smart-2;
+    line-height: 40px;
+    font-size: 4vw;
+}
+.plat2 {
+    @include contenu-menu-smart-2;
+    line-height: 40px;
+    font-size: 4vw;
+}
+.dessert2 {
+    @include contenu-menu-smart-2;
+    line-height: 40px;
+    font-size: 4vw;
+}
+
+// affichage menu le délice des papilles
+
+.menu3 {
+    width: 95%;
+    h2 {
+        font-size: 3vw;
+        text-align: center;
+    }
+}
+.logom3 {
+    font-size: 6vw;
+    line-height: 10px;
+}
+.entree3 {
+    @include contenu-menu-smart-3;
+    line-height: 40px;
+    font-size: 4vw;
+}
+.plat3 {
+    @include contenu-menu-smart-3;
+    line-height: 40px;
+    font-size: 4vw;
+}
+.dessert3 {
+    @include contenu-menu-smart-3;
+    font-size: 4vw;
+}
+
+// affichage menu la palette du gout
+
+.menu4 {
+    width: 95%;
+    h2 {
+        font-size: 3vw;
+        text-align: center;
+    }
+}
+.logom4 {
+    font-size: 6vw;
+    line-height: 10px;
+}
+.entree4 {
+    @include contenu-menu-smart-4;
+    line-height: 40px;
+    font-size: 4vw;
+}
+.plat4 {
+    @include contenu-menu-smart-4;
+    line-height: 40px;
+    font-size: 4vw;
+}
+.dessert4 {
+    @include contenu-menu-smart-4;
+    font-size: 4vw;
 }
 }

@@ -109,4 +109,97 @@
             margin-right: 2%;
         }
     }
+    // affichage menu le chic a la française
+    .menu2 {
+        width: 95%;
+        h2 {
+            font-size: 4vw;
+        }
+    }
+    .logom2 {
+        font-size: 6vw;
+        line-height: 10px;
+    }
+    .entree2 {
+        @include contenu-menu-tab-2;
+        p {
+            font-size: 3vw;
+            line-height: 40px;
+        }
+    }
+    .plat2 {
+        @include contenu-menu-tab-2;
+        p {
+            font-size: 3vw;
+            line-height: 40px;
+        }
+    }
+    .dessert2 {
+        @include contenu-menu-tab-2;
+        line-height: 65px;
+        font-size: 3vw;
+    }
+
+    // affichage menu le délice des papilles
+    .menu3 {
+        width: 95%;
+        h2 {
+            font-size: 4vw;
+        }
+    }
+    .logom3 {
+        font-size: 6vw;
+        line-height: 10px;
+    }
+    .entree3 {
+        @include contenu-menu-tab-3;
+        p {
+            font-size: 3vw;
+            line-height: 40px;
+        }
+    }
+    .plat3 {
+        @include contenu-menu-tab-3;
+        p {
+            font-size: 3vw;
+            line-height: 40px;
+        }
+    }
+    .dessert3 {
+        @include contenu-menu-tab-3;
+        line-height: 65px;
+        font-size: 3vw;
+    }
+
+    // affichage menu la palette du gout
+    .menu4 {
+        width: 95%;
+        h2 {
+            font-size: 4vw;
+        }
+    }
+    .logom4 {
+        font-size: 6vw;
+        line-height: 10px;
+    }
+    .entree4 {
+        @include contenu-menu-tab-4;
+        p {
+            font-size: 3vw;
+            line-height: 40px;
+        }
+    }
+    .plat4 {
+        @include contenu-menu-tab-4;
+        p {
+            font-size: 3vw;
+            line-height: 40px;
+        }
+    }
+    .dessert4 {
+        @include contenu-menu-tab-4;
+        line-height: 65px;
+        font-size: 3vw;
+    }
+
     }

@@ -11,6 +11,7 @@ h3 {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    align-content: center;
     background-color: $bmenu3;
     box-shadow: 10px 10px 20px 10px #d1cfd1;
     h2 {
@@ -31,9 +32,12 @@ h3 {
     font-size: 100px;
     background: linear-gradient(to bottom right, #0837E0, #2494FA);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 5%;
     margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     
 }
 .menu_3 {
@@ -43,6 +47,9 @@ h3 {
     align-items: baseline;
     justify-content: space-between;
     font-family: 'mcgannahanregular';
+    h2 {
+        text-align: center;
+    }
 
 }
 .entree3 {

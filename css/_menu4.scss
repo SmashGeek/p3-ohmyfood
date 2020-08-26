@@ -31,6 +31,7 @@ h3 {
     font-size: 2vw;
     background: linear-gradient(to bottom right, #43973D, #BFFF7E);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 70px;
 }
@@ -41,6 +42,12 @@ h3 {
     align-items: baseline;
     justify-content: space-between;
     font-family: 'mcgannahanregular';
+    h2 {
+        text-align: center;
+    }
+    img {
+        width: 25%;
+    }
 }
 .entree4 {
   @include contenu-menu-4;
