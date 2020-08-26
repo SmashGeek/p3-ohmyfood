@@ -1003,6 +1003,9 @@ h3 {
     flex-direction: column;
     text-align: center;
   }
+  .entree p {
+    font-size: 4vw;
+  }
   .plat {
     padding-left: 7%;
     padding-right: 10%;
@@ -1020,6 +1023,9 @@ h3 {
     flex-direction: column;
     text-align: center;
   }
+  .plat p {
+    font-size: 4vw;
+  }
   .dessert {
     padding-left: 7%;
     padding-right: 10%;
@@ -1027,7 +1033,8 @@ h3 {
     justify-content: space-between;
     font-family: 'mcgannahanregular';
     line-height: 25px;
-    line-height: 65px;
+    line-height: 80px;
+    font-size: 4vw;
   }
   .dessert ul {
     list-style-type: none;
