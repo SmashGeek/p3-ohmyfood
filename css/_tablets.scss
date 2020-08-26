@@ -154,21 +154,21 @@
     .entree3 {
         @include contenu-menu-tab-3;
         p {
-            font-size: 3vw;
+            font-size: 4vw;
             line-height: 40px;
         }
     }
     .plat3 {
         @include contenu-menu-tab-3;
         p {
-            font-size: 3vw;
+            font-size: 4vw;
             line-height: 40px;
         }
     }
     .dessert3 {
         @include contenu-menu-tab-3;
         line-height: 65px;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     // affichage menu la palette du gout
@@ -185,21 +185,21 @@
     .entree4 {
         @include contenu-menu-tab-4;
         p {
-            font-size: 3vw;
+            font-size: 4vw;
             line-height: 40px;
         }
     }
     .plat4 {
         @include contenu-menu-tab-4;
         p {
-            font-size: 3vw;
+            font-size: 4vw;
             line-height: 40px;
         }
     }
     .dessert4 {
         @include contenu-menu-tab-4;
         line-height: 65px;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     }
