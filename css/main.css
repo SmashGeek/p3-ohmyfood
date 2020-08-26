@@ -1164,7 +1164,7 @@ h3 {
     text-align: center;
   }
   .entree2 p {
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 40px;
   }
   .plat2 {
@@ -1185,7 +1185,7 @@ h3 {
     text-align: center;
   }
   .plat2 p {
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 40px;
   }
   .dessert2 {
@@ -1196,7 +1196,7 @@ h3 {
     font-family: 'litolandregular';
     line-height: 25px;
     line-height: 65px;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .dessert2 ul {
     list-style-type: none;
@@ -1235,7 +1235,7 @@ h3 {
     text-align: center;
   }
   .entree3 p {
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 40px;
   }
   .plat3 {
@@ -1256,7 +1256,7 @@ h3 {
     text-align: center;
   }
   .plat3 p {
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 40px;
   }
   .dessert3 {
@@ -1267,7 +1267,7 @@ h3 {
     font-family: 'mcgannahanregular';
     line-height: 25px;
     line-height: 65px;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .dessert3 ul {
     list-style-type: none;
@@ -1306,7 +1306,7 @@ h3 {
     text-align: center;
   }
   .entree4 p {
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 40px;
   }
   .plat4 {
@@ -1327,7 +1327,7 @@ h3 {
     text-align: center;
   }
   .plat4 p {
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 40px;
   }
   .dessert4 {
@@ -1338,7 +1338,7 @@ h3 {
     font-family: 'mcgannahanregular';
     line-height: 25px;
     line-height: 65px;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .dessert4 ul {
     list-style-type: none;
@@ -1589,7 +1589,7 @@ h3 {
     width: 95%;
   }
   .menu3 h2 {
-    font-size: 3vw;
+    font-size: 5vw;
     text-align: center;
   }
   .logom3 {
@@ -1604,7 +1604,7 @@ h3 {
     font-family: 'mcgannahanregular';
     line-height: 25px;
     line-height: 40px;
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .entree3 ul {
     list-style-type: none;
@@ -1623,7 +1623,7 @@ h3 {
     font-family: 'mcgannahanregular';
     line-height: 25px;
     line-height: 40px;
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .plat3 ul {
     list-style-type: none;
@@ -1641,7 +1641,7 @@ h3 {
     justify-content: space-between;
     font-family: 'mcgannahanregular';
     line-height: 25px;
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .dessert3 ul {
     list-style-type: none;
@@ -1656,7 +1656,7 @@ h3 {
     width: 95%;
   }
   .menu4 h2 {
-    font-size: 3vw;
+    font-size: 6vw;
     text-align: center;
   }
   .logom4 {
@@ -1671,7 +1671,7 @@ h3 {
     font-family: 'mcgannahanregular';
     line-height: 25px;
     line-height: 40px;
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .entree4 ul {
     list-style-type: none;
@@ -1690,7 +1690,7 @@ h3 {
     font-family: 'mcgannahanregular';
     line-height: 25px;
     line-height: 40px;
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .plat4 ul {
     list-style-type: none;
@@ -1708,7 +1708,7 @@ h3 {
     justify-content: space-between;
     font-family: 'mcgannahanregular';
     line-height: 25px;
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .dessert4 ul {
     list-style-type: none;
