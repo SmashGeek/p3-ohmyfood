@@ -128,7 +128,7 @@ body {
   margin: 0;
 }
 
-.index {
+.grid {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
