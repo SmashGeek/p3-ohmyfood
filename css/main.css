@@ -232,6 +232,7 @@ body {
   -webkit-text-fill-color: transparent;
   font-size: 3.5rem;
   padding-left: 5px;
+  padding-right: 5px;
 }
 
 .menu3-prev p {
@@ -272,6 +273,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-right: 10px;
+  padding-left: 10px;
 }
 
 .menu4-prev p {
